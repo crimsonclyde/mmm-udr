@@ -9,24 +9,25 @@
 
 # MagicMirrorModule - Ultimate Day Reminder
 
-| Author | CrimsonClyde |
+
+| Input | Output |
 | --- |---|
-|Stardate:   |35c3 (Day3)   |
+|Author:     | CrimsonClyde   |
+|Stardate:   | 35c3 (Day3)   |
 |Location:   | Somewhere deep in the Assemblies   |
 
 
-
-<br>Module screenshot only</br>
+<br>Module only screenshot</br>
 ![Module screenshot](./screenshots/MagicMirror%C2%B2-UDR_solo.png)
 
 
-
 ## Description:
-Module to display the current event of the day. Since everybody has different interest you can add, delete and change things very simple in the calendar.
+Module to display the current event of the day. Since everybody has different interest you can add, delete and change events and dates very simple in the calendar.
 
 Calendar File is called udr-cal.txt. Simple put your events into this file.
 Syntax is YYYY-MM-DD Event:
 
+Example:
 <pre>
 2018-05-01 Beltaine (Summer starts),
 2018-11-01 Samhain (Winter starts),
@@ -34,6 +35,11 @@ Syntax is YYYY-MM-DD Event:
 </pre>
 
 Don´t forget to add the comma at the end of the line!
+
+
+## Developement status
+Work in Progress (WIP)
+Module works fine, but poor code and not hardend against input errors with the calendar file.
 
 
 ## Usage
@@ -54,6 +60,7 @@ modules: [
 ]
 ```
 
+
 ## Configuration
 
 | Argument | Default | Description |
@@ -62,7 +69,8 @@ modules: [
 | **`headerName`** | `""` | Name display on top of the event |
 | **`updateInterval`** | `"60*60*1000"` | Interval for check entries |
 
-60*60*1000 = 60 minutes.
+<pre>60 * 60 * 1000 = 60 minutes</pre>
+
 
 ##  Screenshots
 <br>Full screenshot (incl. default module clock)</br>
