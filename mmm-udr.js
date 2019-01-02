@@ -21,7 +21,9 @@ Module.register("mmm-udr",{
 
 	// Default module config.
 	defaults: {
-    updateInterval: 60*60*1000      //reads the file every 60 mins
+		moduleName: "mmm-udr",								// Module Name
+		headerName: "Ultimate Day Reminder",	// Display header
+    updateInterval: 60*60*1000      			//reads the file every 60 mins
 	},
 
 	// Initiate SocketNotifications
@@ -41,13 +43,22 @@ Module.register("mmm-udr",{
 
   // Override dom generator
   getDom: function() {
-    var wrapper = document.createElement("div");
+		var wrapper = document.createElement("div");
+		var space = '&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;';
 
     if(this.dataFile){
-        wrapper.innerHTML = this.dataFile;
+				wrapper.innerHTML = '<p id="mmm-udr" style="line-height:0.6;font-size:12px;text-decoration:underline;">' +
+														space + this.config.headerName + space +
+														'</p>' +
+														this.dataFile;
     } else {
-        wrapper.innerHTML = 'Just a normal day';
+			wrapper.innerHTML = '<p id="mmm-udr" style="line-height:0.6;font-size:12px;text-decoration:underline;">' +
+													space + this.config.headerName + space +
+													'</p>' +
+													'Nothing special today - enjoy!';
     }
+
     return wrapper
   }
+
 });
