@@ -101,11 +101,11 @@ module.exports = NodeHelper.create({
 
       // Remove line break and date
       if (matches != '') {
-        var finalEvent = matches.toString().replace('\n'+sDate,'');
+        var finalEvent = matches.toString().replace('\n' + sDate,'');
       } else {
         var finalEvent = '';
       }
-      if (debug == 1) { console.log('Final result to display' + final); }
+      if (debug == 1) { console.log('Final result to display: ' + finalEvent); }
 
       // Send final result to module
       this.sendSocketNotification('EVENT', finalEvent);
