@@ -17,7 +17,7 @@
 
 
 <br>Module screenshot only</br>
-![Module screenshot](https:///raw.githubusercontent.com/crimsonclyde/MMM-UDR/master/screenshots/MagicMirror%C2%B2-UDR_solo.png)
+![Module screenshot](./screenshots/MagicMirror%C2%B2-UDR_solo.png)
 
 
 
@@ -66,7 +66,7 @@ modules: [
 
 ##  Screenshots
 <br>Full screenshot (incl. default module clock)</br>
-![Full screen screenshot](/screenshots/MagicMirror%C2%B2-UDR_full.png)
+![Full screen screenshot](./screenshots/MagicMirror%C2%B2-UDR_full.png)
 
 
 ## Copyright 2019 CrimsonClyde
