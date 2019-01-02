@@ -1,17 +1,19 @@
-2018-01-15,Wikipedia Birthday (Jan. 15th 2001)
-2018-02-12,Darwin Day (Charles Darwin 1809)
-2018-03-14,SchniBlo & π PiDay
-2018-03-21,Ostara (Frühjahrstag/nachtgleiche)
-2018-03-25,Tolkien Day (Day of Saurons Fall)
-2018-05-04,Star Wars Day (May the Force)
-2018-05.25,Towel Day (Hitchhikers Guide)
-2018-05-01,Beltaine (Summer starts)
-2018-06-21,Lithia (Sommersonnwend)
-2018-09-22,Hobbit Day
-2018-09-23,Mabon (Herbsttag/nachtgleiche)
-2018-11-01,Samhain (Winter starts)
-2018-12-21,Yule (Wintersonnwend)
-2018-12-27,Chaos Communication Congress
-2018-12-28,Chaos Communication Congress
-2018-12-29,Chaos Communication Congress
-2018-12-30,Chaos Communication Congress
+2018-01-15 Wikipedia Birthday (Jan. 15th 2001),
+2018-02-12 Darwin Day (Charles Darwin 1809),
+2018-03-14 SchniBlo & π PiDay,
+2018-03-21 Ostara (Frühjahrstag/nachtgleiche),
+2018-03-25 Tolkien Day (Day of Saurons Fall),
+2018-05-04 Star Wars Day (May the Force),
+2018-05.25 Towel Day (Hitchhikers Guide),
+2018-05-01 Beltaine (Summer starts),
+2018-06-21 Lithia (Sommersonnwend),
+2018-09-22 Hobbit Day,
+2018-09-23 Mabon (Herbsttag/nachtgleiche),
+2018-11-01 Samhain (Winter starts),
+2018-12-21 Yule (Wintersonnwend),
+2018-12-27 Chaos Communication Congress,
+2018-12-28 Chaos Communication Congress,
+2018-12-29 Chaos Communication Congress,
+2018-12-30 Chaos Communication Congress,
+2018-12-31 New years eve & Birthday of UDR (2018),
+2019-01-01 Happy new year!,
