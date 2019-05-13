@@ -50,26 +50,9 @@ modules: [
 	{
 		module: 'mmm-udr',
 		position: 'bottom_bar', // The status indicator position
-		config: {
-		    // See 'Configuration options' for more information.
-		    moduleName: 'module_name',
-		    headerName: 'header_name',
-		    updateInterval: 'interval',
-		}
 	}
 ]
 ```
-
-
-## Configuration
-
-| Argument | Default | Description |
-|---|---|---|
-| **`moduleName`** | `""` | The device id  that you've created at Amazon. |
-| **`headerName`** | `""` | Name display on top of the event |
-| **`updateInterval`** | `"60*60*1000"` | Interval for check entries |
-
-<pre>60 * 60 * 1000 = 60 minutes</pre>
 
 
 ##  Screenshots
