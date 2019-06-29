@@ -17,11 +17,11 @@ You can define it for yourself in udr-cal.txt file.
 */
 
 // Register Module
-Module.register("mmm-udr",{
+Module.register("MMM-UDR",{
 
 	// Default module config.
 	defaults: {
-		moduleName: "mmm-udr",								// Module Name
+		moduleName: "MMM-UDR",								// Module Name
 		headerName: "Ultimate Day Reminder",	// Display header
     updateInterval: 60*60*1000      			//reads the file every 60 mins
 	},
