@@ -42,7 +42,11 @@ Work in Progress (WIP)
 Module works fine, but poor code quality and not hardend against input errors with the calendar file.
 
 ## Installation
-Navigate into your MagicMirror's `modules` folder and execute `https://github.com/crimsonclyde/MMM-UDR.git`. A new folder for `mmm-udr` will appear navigate into it. Execute:
+1. Navigate into your MagicMirror's `modules` folder and execute
+```
+git clone https://github.com/crimsonclyde/MMM-UDR.git
+```
+2. A new folder for `mmm-udr` will appear navigate into it. Execute:
 ```
 npm install
 ```
