@@ -28,19 +28,31 @@ Calendar File is called udr-cal.txt. Simple put your events into this file.
 Syntax is YYYY-MM-DD Event:
 
 Example:
-<pre>
+```
 2018-05-01 Beltaine (Summer starts),
 2018-11-01 Samhain (Winter starts),
 2018-12-21 Yule (Wintersonnwend),
-</pre>
+```
 
 Don´t forget to add the comma at the end of the line!
 
 
 ## Developement status
 Work in Progress (WIP)
-Module works fine, but poor code and not hardend against input errors with the calendar file.
+Module works fine, but poor code quality and not hardend against input errors with the calendar file.
 
+## Installation
+Navigate into your MagicMirror's `modules` folder and execute `https://github.com/crimsonclyde/MMM-UDR.git`. A new folder for `mmm-udr` will appear navigate into it. Execute:
+```
+npm install
+```
+This will install all dependencies required by the module.
+
+## Update module
+Navigate into your MagicMirror's `modules` folder and further on navigate into `mmm-udr` folder and execute:
+```
+git pull & npm install
+```
 
 ## Usage
 To use this module, add it to the modules array in the config/config.js file:
@@ -58,6 +70,23 @@ modules: [
 ##  Screenshots
 <br>Full screenshot (incl. default module clock)</br>
 ![Full screen screenshot](./screenshots/MagicMirror%C2%B2-UDR_full.png)
+
+## F.A.Q.
+**Question:** *Cannot update my module I get sopmething like: Your local changes to the following files would be overwritten by merge: (some file). Please, commit your changes or stash them before you can merge.*
+
+**Answer:**
+<br>This message basically give you the information that you have changed something locally and you have not submittet this to GitHub. That's fine for the moment if you have changed only the calendar file `udr-cal.txt`.<br />
+Backup this file somewhere outside of the `./modules/mmm-udr/ folder`.
+Now we reset the repository. Once again please backup your the files which you have changed! Otherwise they are lost.
+```
+cd /path/to/MagicMirror/modules/mmm-udr
+git reset --hard
+```
+
+
+
+
+
 
 
 ## Copyright 2019 CrimsonClyde
