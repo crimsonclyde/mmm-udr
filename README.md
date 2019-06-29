@@ -44,23 +44,13 @@ Module works fine, but poor code quality and not hardend against input errors wi
 ## Installation
 1. Navigate into your MagicMirror's `modules` folder and execute
 ```
-git clone https://github.com/crimsonclyde/MMM-UDR.git
+git clone https://github.com/crimsonclyde/mmm-udr.git
 ```
-2. A new folder for `mmm-udr` will appear navigate into it. Execute:
+2. CD into new folder called `mmm-udr`
 ```
 npm install
 ```
-This will install all dependencies required by the module.
-
-## Update module
-Navigate into your MagicMirror's `modules` folder and further on navigate into `mmm-udr` folder and execute:
-```
-git pull & npm install
-```
-
-## Usage
-To use this module, add it to the modules array in the config/config.js file:
-
+3. To use this module, add it to the modules array in the config/config.js file:
 ```
 modules: [
 	{
@@ -70,6 +60,11 @@ modules: [
 ]
 ```
 
+## Update module
+Navigate into your MagicMirror's `modules` folder and further on navigate into `mmm-udr` folder and execute:
+```
+git pull & npm install
+```
 
 ##  Screenshots
 <br>Full screenshot (incl. default module clock)</br>
