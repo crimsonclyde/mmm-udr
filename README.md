@@ -57,7 +57,8 @@ Example:
 **:warning: Important!**
 - **Don´t forget to add the comma at the end of each line**
 
-## Installation
+
+### Installation
 1. Navigate into your MagicMirror's `modules` folder and execute
 ```
 git clone https://github.com/crimsonclyde/mmm-udr.git
