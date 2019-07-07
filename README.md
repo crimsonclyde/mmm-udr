@@ -7,7 +7,7 @@
         \/                \/     \/  Clyde      \/ </pre>
 
 
-# MagicMirrorModule - Ultimate Day Reminder
+# MagicMirror² Module - Ultimate Day Reminder
 
 
 | Input | Output |
@@ -17,29 +17,43 @@
 |Location:   | Somewhere deep in the Assemblies   |
 
 
-<br>Module only screenshot</br>
+<br>Module screenshot</br>
 ![Module screenshot](./screenshots/MagicMirror%C2%B2-UDR_solo.png)
 
 
 ## Description:
-Module to display the current event of the day. Since everybody has different interest you can add, delete and change events and dates very simple in the calendar.
+This MagicMirror² module grants you the super power displaying you your own current event of the day.
+You can add everything to the calendar file what you want. the easierst way is to fork this project
+and change the calendar file to your needs. We just filled it for you with some nice specials.
+But it is totally up to you.
 
-Calendar File is called udr-cal.txt. Simple put your events into this file.
-Syntax is YYYY-MM-DD Event:
+## Table of Contents
+
+- [Table Of Contents](#table-of-contents)
+- [Calendar File](##Calendar-File)
+- [Installation](##Installation)
+- [Update Module](##Update-Module)
+- [Screenshots](##Screenshots)
+- [F.A.Q.](F.A.Q.)
+- [Developement Status](##Developement-Status)
+- [Copyright](##Copyright)
+
+## Calendar File
+<br>Calendar File is called `udr-cal.txt`.</br>
+Simple put your events into this file.
 
 Example:
 ```
-2018-05-01 Beltaine (Summer starts),
-2018-11-01 Samhain (Winter starts),
-2018-12-21 Yule (Wintersonnwend),
+2019-08-28 American Race Your Mouse Around The Icons Day,
+2019-08-30 Frankenstein Day (Happy Birthday Marry Wollenstone Shelley),
+2019-09-13 Day of the Programmer,
+2019-09-14 Hobbit Day (Birthday Bilbo/Frodo),
+2019-09-19 International Talk Like a Pirate Day,
+2019-09-23 Mabon (Autumn Equinox),
+2019-10-01 International Coffee Day,
 ```
-
-Don´t forget to add the comma at the end of the line!
-
-
-## Developement status
-Work in Progress (WIP)
-Module works fine, but poor code quality and not hardend against input errors with the calendar file.
+<br>Syntax is: `YYYY-MM-DD Event,`</br>
+!Don´t forget to add the comma at the end of each line!
 
 ## Installation
 1. Navigate into your MagicMirror's `modules` folder and execute
@@ -60,8 +74,10 @@ modules: [
 ]
 ```
 
-## Update module
-Navigate into your MagicMirror's `modules` folder and further on navigate into `mmm-udr` folder and execute:
+## Update Module
+1. Navigate into your MagicMirror's `modules` folder
+
+2. Now further on navigate into `mmm-udr` folder and execute
 ```
 git pull & npm install
 ```
@@ -71,24 +87,30 @@ git pull & npm install
 ![Full screen screenshot](./screenshots/MagicMirror%C2%B2-UDR_full.png)
 
 ## F.A.Q.
-**Question:** *Cannot update my module I get sopmething like: Your local changes to the following files would be overwritten by merge: (some file). Please, commit your changes or stash them before you can merge.*
+**Question:** *Cannot update my module I get something like: Your local changes to the following files would be overwritten by merge: (some file). Please, commit your changes or stash them before you can merge.*
 
 **Answer:**
-<br>This message basically give you the information that you have changed something locally and you have not submittet this to GitHub. That's fine for the moment if you have changed only the calendar file `udr-cal.txt`.<br />
+<br>This message basically tells you that you have changed something locally and you have not submittet this to GitHub. That's fine for the moment if you have changed only the calendar file `udr-cal.txt`.<br />
 Backup this file somewhere outside of the `./modules/mmm-udr/ folder`.
-Now we reset the repository. Once again please backup your the files which you have changed! Otherwise they are lost.
+Now we use reset on the repository.
+<br><b>! Be sure that you have a backup of your changed files !</b></br>
+
 ```
 cd /path/to/MagicMirror/modules/mmm-udr
 git reset --hard
 ```
+Now you should be able to update `mmm-udr` and copy the calendar file back into your module directory
 
 
+## Developement Status
+A basisc running beta gold version.
+Module works fine, but it is a poor code quality and not hardend against input errors with the calendar file.
+I am not sure if I ever want to improve this, reason is simple, during the developement of this module I started to hate NodeJS and JS. Not to meant personal. I seems that I am to stupid and therefore not able to get a hang of this script language. Sorry
 
 
+## Copyright
 
-
-
-## Copyright 2019 CrimsonClyde
+`2019 by CrimsonClyde,`
 
 MIT License [tl;dr](https://tldrlegal.com/license/mit-license)
 
