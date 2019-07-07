@@ -31,7 +31,7 @@ But it is totally up to you.
 
 - [Table Of Contents](#table-of-contents)
 - [Calendar File](#calendar-file)
-- [Installation](##installation)
+- [Installation](#installation)
 - [Update Module](#update-module)
 - [Screenshots](#screenshots)
 - [F.A.Q.](#faq)
