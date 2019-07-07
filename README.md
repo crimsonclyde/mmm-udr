@@ -54,8 +54,7 @@ Example:
 ```
 <br>Syntax is: `YYYY-MM-DD Event,`</br>
 
-**:warning: Important!**
-- **Don´t forget to add the comma at the end of each line**
+**:warning: Important:** Don´t forget to add the comma at the end of each line!
 
 
 ## Installation
@@ -97,8 +96,7 @@ git pull & npm install
 Backup this file somewhere outside of the `./modules/mmm-udr/ folder`.
 Now we use reset on the repository.
 
-**:warning: Important!**
-- **Be sure that you have a backup of your changed files !**
+**:warning: Important:** Be sure that you have a backup of your changed files!
 
 ```
 cd /path/to/MagicMirror/modules/mmm-udr
