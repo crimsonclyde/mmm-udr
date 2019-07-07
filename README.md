@@ -30,13 +30,13 @@ But it is totally up to you.
 ## Table of Contents
 
 - [Table Of Contents](#table-of-contents)
-- [Calendar File](##Calendar-File)
-- [Installation](##Installation)
-- [Update Module](##Update-Module)
-- [Screenshots](##Screenshots)
-- [F.A.Q.](F.A.Q.)
-- [Developement Status](##Developement-Status)
-- [Copyright](##Copyright)
+- [Calendar File](##calendar-File)
+- [Installation](##installation)
+- [Update Module](##update-module)
+- [Screenshots](##screenshots)
+- [F.A.Q.](##f-a-q)
+- [Developement Status](##developement-status)
+- [Copyright](##copyright)
 
 ## Calendar File
 <br>Calendar File is called `udr-cal.txt`.</br>
@@ -53,7 +53,9 @@ Example:
 2019-10-01 International Coffee Day,
 ```
 <br>Syntax is: `YYYY-MM-DD Event,`</br>
-!Don´t forget to add the comma at the end of each line!
+
+**:warning: Important!**
+- **Don´t forget to add the comma at the end of each line**
 
 ## Installation
 1. Navigate into your MagicMirror's `modules` folder and execute
@@ -93,7 +95,9 @@ git pull & npm install
 <br>This message basically tells you that you have changed something locally and you have not submittet this to GitHub. That's fine for the moment if you have changed only the calendar file `udr-cal.txt`.<br />
 Backup this file somewhere outside of the `./modules/mmm-udr/ folder`.
 Now we use reset on the repository.
-<br><b>! Be sure that you have a backup of your changed files !</b></br>
+
+**:warning: Important!**
+- **Be sure that you have a backup of your changed files !**
 
 ```
 cd /path/to/MagicMirror/modules/mmm-udr
