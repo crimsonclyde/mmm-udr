@@ -30,13 +30,13 @@ But it is totally up to you.
 ## Table of Contents
 
 - [Table Of Contents](#table-of-contents)
-- [Calendar File](##calendar-File)
+- [Calendar File](#calendar-file)
 - [Installation](##installation)
-- [Update Module](##update-module)
-- [Screenshots](##screenshots)
-- [F.A.Q.](##f-a-q)
-- [Developement Status](##developement-status)
-- [Copyright](##copyright)
+- [Update Module](#update-module)
+- [Screenshots](#screenshots)
+- [F.A.Q.](#faq)
+- [Developement Status](#developement-status)
+- [Copyright](#copyright)
 
 ## Calendar File
 <br>Calendar File is called `udr-cal.txt`.</br>
